@@ -12,6 +12,8 @@ First thing we need to do is create an environment for us to write code and test
 * You should end with VS code which should look like this 
 
 
+![Image](Screen Shot 2023-04-24 at 2.23.09 AM)
+
 2. **Remotely Connect**
 
 Now that we have a coding environment our next step is to remotely connect to another computer over the internet. This is a common practice in other CSE classes and other institutions.
