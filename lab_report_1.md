@@ -56,5 +56,5 @@ to run these commands all you need to do is type them into the terminal and hit 
 
 below are some of the outputs when running the above commands
   
-  !pImage](testLS.jpg.png)
+  ![Image](testLS.jpg.png)
 
