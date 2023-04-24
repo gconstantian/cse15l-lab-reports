@@ -18,7 +18,16 @@ Now that we have a coding environment our next step is to remotely connect to an
 * If you are using a Windows computer you first need to install git for Windows. You can do that by clicking this [Link](https://gitforwindows.org/). Then make sure to also follow these steps to use git bash in VS code [Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 * *If you are not on a Windows computer you can start here. I use a Mac so I started here*
 
+* We now want to open VScode and type the following into our terminal
+
+** ssh cs15lsp23zz@ieng6.ucsd.edu**
+
+(make sure to replace the zz with your account specific letters)
+
+* If VScode ask if you want to coninue type in **yes**
+
+*when I was trying to setup my remote connection the system was down, so I do not have any screenshots that would be useful to these instructions*
 
 3. **Trying Some Commands**
 
-* instructions
+Now that we have our coding environment all setup we can start coding!!
