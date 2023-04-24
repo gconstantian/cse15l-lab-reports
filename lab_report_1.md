@@ -31,3 +31,18 @@ Now that we have a coding environment our next step is to remotely connect to an
 3. **Trying Some Commands**
 
 Now that we have our coding environment all setup we can start coding!!
+
+*again I want to preface that since I was not able to get my remote coding environment working most of the test I did was on my own computer, feel free to experiment to see the differences between working on the remote system compared to working on your personal computer*
+
+some useful commands you can try include
+
+* cd ~
+
+* cd
+
+* ls -lat
+
+* ls -a
+
+* ls <directory> (replace with /home.linux/ieng6/cs15lsp23/cs15lsp23abc)
+
