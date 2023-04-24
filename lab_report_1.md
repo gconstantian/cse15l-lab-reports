@@ -16,7 +16,7 @@ First thing we need to do is create an environment for us to write code and test
 
 Now that we have a coding environment our next step is to remotely connect to another computer over the internet. This is a common practice in other CSE classes and other institutions.
 * If you are using a Windows computer you first need to install git for Windows. You can do that by clicking this [Link](https://gitforwindows.org/). Then make sure to also follow these steps to use git bash in VS code [Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
-* *If you are not on a Windows computer you can start here.*
+* *If you are not on a Windows computer you can start here. I use a Mac so I started here*
 
 
 3. **Trying Some Commands**
