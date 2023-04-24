@@ -30,6 +30,10 @@ Now that we have a coding environment our next step is to remotely connect to an
 
 *when I was trying to setup my remote connection the system was down, so I do not have any screenshots that would be useful to these instructions*
 
+Here is what it should look like once you have completed the connection
+
+![Image](virtualconnection.jpg.png)
+
 3. **Trying Some Commands**
 
 Now that we have our coding environment all setup we can start coding!!
