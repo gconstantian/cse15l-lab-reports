@@ -46,3 +46,5 @@ some useful commands you can try include
 
 * ls <directory> (replace with /home.linux/ieng6/cs15lsp23/cs15lsp23abc)
 
+to run these commands all you need to do is type them into the terminal and hit enter!
+
