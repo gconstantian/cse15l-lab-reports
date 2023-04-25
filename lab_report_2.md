@@ -44,25 +44,37 @@ The method that was called for this to function was handleRequest
   
   ## Debuggin
   
-  Below is an error message of code that would conduct the correct choosing of strings, but would put them in the wrong order
+Below is code that would produce a bug
   
-  MacBook-Pro-157:lab3 GraceConstantian$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListTests
-JUnit version 4.13.2
-.E
-Time: 0.016
-There was 1 failure:
-1) filter(ListTests)
-java.lang.AssertionError: expected:<[banana, pear]> but was:<[pear, banana]>
-        at org.junit.Assert.fail(Assert.java:89)
-        at org.junit.Assert.failNotEquals(Assert.java:835)
-        at org.junit.Assert.assertEquals(Assert.java:120)
-        at org.junit.Assert.assertEquals(Assert.java:146)
-        at ListTests.filter(ListTests.java:12)
+  ```
+import java.util.ArrayList;
+import java.util.List;
 
-FAILURES!!!
-Tests run: 1,  Failures: 1
+interface StringChecker { boolean checkString(String s); }
 
-The error is that the two items were switched
-  
-![Image](bugged.jpg.png)
+class check implements StringChecker{
+  public boolean checkString(String s){
+    if (s.equals("apple")){
+      return false;
+    }
+    else{
+      return true;
+    }
+  }
+}
+class ListExamples {
+
+  // Returns a new list that has all the elements of the input list for which
+  // the StringChecker returns true, and not the elements that return false, in
+  // the same order they appeared in the input list;
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(s);
+      }
+    }
+    return result;
+  }
+```
 
