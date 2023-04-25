@@ -45,7 +45,7 @@ The method that was called for this to function was handleRequest
   ## Debuggin
   
 Below is code that would produce a bug
-  
+   
   ```
 import java.util.ArrayList;
 import java.util.List;
