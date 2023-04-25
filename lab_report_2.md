@@ -111,4 +111,8 @@ public class ListTests {
   ```
   
   Then we would get the correct output and our test of putting all elements that do not equal apple into a list would work.
+  
+  ## Reflection
+  
+  Something I learned in the last two weeks is that it is incredibly easy to make my own local website and I can do just about anything on it. Creating and using URLs has been incredibly intimidating for me and by going through the lab I realized that it is not bad to do. The user interface is also super interesting and I look forward to learning more about how to make the website itself more interactable instead of just the URL.
 
