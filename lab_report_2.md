@@ -55,10 +55,10 @@ interface StringChecker { boolean checkString(String s); }
 class check implements StringChecker{
   public boolean checkString(String s){
     if (s.equals("apple")){
-      return false;
+      return true;
     }
     else{
-      return true;
+      return false;
     }
   }
 }
@@ -77,4 +77,38 @@ class ListExamples {
     return result;
   }
 ```
+  
+  If I were to test
+  
+  ```
+  import java.util.ArrayList;
+import java.util.List;
+import static org.junit.Assert.*;
+import org.junit.*;
+public class ListTests {
+    @Test public void filter(){
+        List<String> input1 = new ArrayList<>();
+        input1.add("apple");
+        input1.add("banana");
+        input1.add("pear");
+        //ListExamples.filter(input1, new check());
+        assertEquals(List.of("banana", "pear"), ListExamples.filter(input1, new check()));
+    }
+  ```
+  
+  I would get a bug because we want all the elemnts that are not apple, but the code above only chooses elements that are apple
+  
+  If we debug the code to 
+  
+  ```
+  public boolean checkString(String s){
+    if (s.equals("apple")){
+      return false;
+    }
+    else{
+      return true;
+    }
+  ```
+  
+  Then we would get the correct output and our test of putting all elements that do not equal apple into a list would work.
 
