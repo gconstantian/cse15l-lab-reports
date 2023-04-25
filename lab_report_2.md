@@ -9,7 +9,7 @@ Here is the code I wrote to create a local server that adds new lines of text ea
 
 ![Image](StringerServer.jpg.png)
 
-**Screen Shot One**
+**Screen Shot 1**
 
 ![Image](Lab3SS1.jpg.png)
   
@@ -26,6 +26,6 @@ Here is the code I wrote to create a local server that adds new lines of text ea
   * this is finally returned so we get all of the strings each time we run the url
   
   
-**Screen Shot two**
+**Screen Shot 2**
 
 ![Image](Lab3SS2.jpg.png)
