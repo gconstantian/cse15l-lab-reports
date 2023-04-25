@@ -25,6 +25,7 @@ Here is the code I wrote to create a local server that adds new lines of text ea
   
   * this is finally returned so we get all of the strings each time we run the url
   
+  
 **Screen Shot two**
 
 ![Image](Lab3SS2.jpg.png)
