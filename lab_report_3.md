@@ -14,7 +14,7 @@ What this does is find files that are either greater than or less than the memor
 
 input
 ```
-bash-3.2$ find technical/ -type f -size +100k
+find technical/ -type f -size +100k
 ```
 
 output
@@ -75,7 +75,32 @@ technical//plos/pmed.0020120.txt
 ```
 In the first example the command line finds all the files in technical that are larger than 100k and the second example finds all the files in technical that are less than 2k. This can be helpful in finding what is taking the most amount of storage and what files might need to be moved elsewhere to make room for other items.
 
-## 2
+## 2 -empty
+This command checks if a directory is empty.
+input
+```
+find technical/ -type d ! -empty
+```
+output
+```
+technical/
+technical//government
+technical//government/About_LSC
+technical//government/Env_Prot_Agen
+technical//government/Alcohol_Problems
+technical//government/Gen_Account_Office
+technical//government/Post_Rate_Comm
+technical//government/Media
+technical//plos
+technical//biomed
+technical//911report
+```
+input
+```
+find technical/ -type d -empty
+```
+```
+```
 
 ## 3
 
