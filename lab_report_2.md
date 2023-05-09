@@ -131,6 +131,23 @@ Tests run: 1,  Failures: 1
       return true;
     }
   ```
+  and then put in the exact same test
+   
+  ```
+  import java.util.ArrayList;
+import java.util.List;
+import static org.junit.Assert.*;
+import org.junit.*;
+public class ListTests {
+    @Test public void filter(){
+        List<String> input1 = new ArrayList<>();
+        input1.add("apple");
+        input1.add("banana");
+        input1.add("pear");
+        //ListExamples.filter(input1, new check());
+        assertEquals(List.of("banana", "pear"), ListExamples.filter(input1, new check()));
+    }
+  ```
   
   Then we would get the correct output and our test of putting all elements that do not equal apple into a list would work.
   
