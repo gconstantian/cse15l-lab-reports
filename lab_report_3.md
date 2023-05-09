@@ -99,8 +99,10 @@ input
 ```
 find technical/ -type d -empty
 ```
+output
 ```
 ```
+In the first example the command line finds all the directories that have stuff in them and the second example gives all the directories that are empty.
 
 ## 3
 
