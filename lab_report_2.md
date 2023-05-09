@@ -95,12 +95,13 @@ public class ListTests {
         input1.add("pear");
         //ListExamples.filter(input1, new check());
         assertEquals(List.of("banana", "pear"), ListExamples.filter(input1, new check()));
+        assertEquals(List.of("apple"), List.Examples.filter(input1, new check()));
     }
   ```
   
   I would get a bug because we want all the elemnts that are not apple, but the code above only chooses elements that are apple
  
- This is the specific error message I recieve.
+ This is the specific error message I recieve. The second tets passes because it test to see if the ArrayList equals the new ArrayList ("apple"). This is a test that does not induce failure and confirms what part of the code has a bug.
  
  ```
  MacBook-Pro-157:lab3 GraceConstantian$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListTests
@@ -117,7 +118,7 @@ java.lang.AssertionError: expected:<[banana, pear]> but was:<[apple]>
         at ListTests.filter(ListTests.java:12)
 
 FAILURES!!!
-Tests run: 1,  Failures: 1
+Tests run: 2,  Failures: 1
 ```
   
   If we debug the code to 
