@@ -49,9 +49,11 @@ technical//911report/chapter-7.txt
 technical//911report/chapter-9.txt
 technical//911report/chapter-12.txt
 ```
+input
 ```
 find technical/ -type f -size -2k
 ```
+output
 ```
 technical//government/Media/Helping_Hands.txt
 technical//government/Media/Campaign_Pays.txt
@@ -71,7 +73,7 @@ technical//plos/pmed.0020157.txt
 technical//plos/pmed.0020082.txt
 technical//plos/pmed.0020120.txt
 ```
-
+In the first example the command line finds all the files in technical that are larger than 100k and the second example finds all the files in technical that are less than 2k. This can be helpful in finding what is taking the most amount of storage and what files might need to be moved elsewhere to make room for other items.
 
 ## 2
 
