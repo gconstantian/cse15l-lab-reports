@@ -4,8 +4,10 @@ Hello!! Welcome to the second part of the CSE15l journey. Here we are going to l
 
 ## StringServer
 
-Here is the code I wrote to create a local server that adds new lines of text each time you enter /add-message?s=<String of your chose> 
-  
+Here is the code I wrote to create a local server that adds new lines of text each time you enter
+```
+/add-message?s=<String of your chose> 
+ ``` 
 
 ![Image](StringerServer.jpg.png)
 
@@ -97,6 +99,26 @@ public class ListTests {
   ```
   
   I would get a bug because we want all the elemnts that are not apple, but the code above only chooses elements that are apple
+ 
+ This is the specific error message I recieve.
+ 
+ ```
+ MacBook-Pro-157:lab3 GraceConstantian$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListTests
+JUnit version 4.13.2
+.E
+Time: 0.016
+There was 1 failure:
+1) filter(ListTests)
+java.lang.AssertionError: expected:<[banana, pear]> but was:<[apple]>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:120)
+        at org.junit.Assert.assertEquals(Assert.java:146)
+        at ListTests.filter(ListTests.java:12)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+```
   
   If we debug the code to 
   
