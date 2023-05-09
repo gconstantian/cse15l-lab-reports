@@ -49,6 +49,28 @@ technical//911report/chapter-7.txt
 technical//911report/chapter-9.txt
 technical//911report/chapter-12.txt
 ```
+```
+find technical/ -type f -size -2k
+```
+```
+technical//government/Media/Helping_Hands.txt
+technical//government/Media/Campaign_Pays.txt
+technical//government/Media/Fire_Victims_Sue.txt
+technical//government/Media/Court_Keeps_Judge_From.txt
+technical//government/Media/It_Pays_to_Know.txt
+technical//government/Media/Self-Help_Website.txt
+technical//government/Media/Justice_requests.txt
+technical//government/Media/Wilmington_lawyer.txt
+technical//government/Media/Lawyer_Web_Survey.txt
+technical//plos/pmed.0020048.txt
+technical//plos/pmed.0020028.txt
+technical//plos/pmed.0020191.txt
+technical//plos/pmed.0020226.txt
+technical//plos/pmed.0020192.txt
+technical//plos/pmed.0020157.txt
+technical//plos/pmed.0020082.txt
+technical//plos/pmed.0020120.txt
+```
 
 
 ## 2
