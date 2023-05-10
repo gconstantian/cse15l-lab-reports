@@ -166,3 +166,5 @@ output
 find: -delete: technical/911report/: relative path potentially not safe
 ```
 This command line deletes things. The first example it deletes a textfile and the second example it deletes an entire directory. This is useful when you want to delete files.
+
+For all of these examples I utilized chat GPT to give me examples of what a command line should look like for each of these different commands.
