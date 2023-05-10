@@ -104,6 +104,46 @@ output
 ```
 In the first example the command line finds all the directories that have stuff in them and the second example gives all the directories that are empty.
 
-## 3
+## 3 -type
+This command finds all the objects that match the given type
+inpyt
+```
+find technical/ -type d
+```
+output 
+```
+technical/
+technical//government
+technical//government/About_LSC
+technical//government/Env_Prot_Agen
+technical//government/Alcohol_Problems
+technical//government/Gen_Account_Office
+technical//government/Post_Rate_Comm
+technical//government/Media
+technical//plos
+technical//biomed
+technical//911report
+```
+input
+```
+find technical/government/Env_Prot_Agen -type f
+```
+output
+```
+technical/government/Env_Prot_Agen/multi102902.txt
+technical/government/Env_Prot_Agen/section-by-section_summary.txt
+technical/government/Env_Prot_Agen/jeffordslieberm.txt
+technical/government/Env_Prot_Agen/final.txt
+technical/government/Env_Prot_Agen/ctf7-10.txt
+technical/government/Env_Prot_Agen/ctf1-6.txt
+technical/government/Env_Prot_Agen/ro_clear_skies_book.txt
+technical/government/Env_Prot_Agen/ctm4-10.txt
+technical/government/Env_Prot_Agen/1-3_meth_901.txt
+technical/government/Env_Prot_Agen/atx1-6.txt
+technical/government/Env_Prot_Agen/tech_sectiong.txt
+technical/government/Env_Prot_Agen/bill.txt
+technical/government/Env_Prot_Agen/nov1.txt
+technical/government/Env_Prot_Agen/tech_adden.txt
+```
 
 ## 4
