@@ -145,5 +145,6 @@ technical/government/Env_Prot_Agen/bill.txt
 technical/government/Env_Prot_Agen/nov1.txt
 technical/government/Env_Prot_Agen/tech_adden.txt
 ```
+The first command looks for objects that are a directory and the second example looks for objects that are files within a specific directory. These are notified by whatever letter comes after -type. f means it is a regular file and d means it is a directory.
 
 ## 4
