@@ -147,4 +147,22 @@ technical/government/Env_Prot_Agen/tech_adden.txt
 ```
 The first command looks for objects that are a directory and the second example looks for objects that are files within a specific directory. These are notified by whatever letter comes after -type. f means it is a regular file and d means it is a directory.
 
-## 4
+## 4 -delete
+deletes an object
+input
+```
+find technical/911report/chapter-11.txt -delete
+```
+output
+```
+find: -delete: technical/911report/chapter-11.txt: relative path potentially not safe
+```
+input
+```
+find technical/911report/ -delete
+```
+output
+```
+find: -delete: technical/911report/: relative path potentially not safe
+```
+
