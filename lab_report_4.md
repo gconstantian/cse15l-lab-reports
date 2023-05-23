@@ -81,5 +81,20 @@ to save and quit
 
 ## 4. Run the tests, demonstrating that they now succeed
 
+in your terminal and click 
+```
+<enter>
+```
+then to run the test type
+```
+bash test.sh
+```
+in the terminal and click
+```
+enter
+```
 
+## 5. Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+I do not know how to do this.
 
