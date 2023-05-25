@@ -106,7 +106,7 @@ In the first example the command line finds all the directories that have stuff 
 
 ## 3 -type
 This command finds all the objects that match the given type
-inpyt
+input
 ```
 find technical/ -type d
 ```
@@ -167,4 +167,88 @@ find: -delete: technical/911report/: relative path potentially not safe
 ```
 This command line deletes things. The first example it deletes a textfile and the second example it deletes an entire directory. This is useful when you want to delete files.
 
+
+## Chat GTP
 For all of these examples I utilized chat GPT to give me examples of what a command line should look like for each of these different commands.
+
+The first prompt I gave was: Please give me examples of using find in the command line
+
+The output was
+```
+Certainly! The find command is a powerful tool for searching files and directories in the command line. Here are a few examples of how you can use it:
+
+Search for a file by name:
+
+
+find /path/to/search -name "filename.txt"
+This command will search for a file named "filename.txt" in the directory specified by /path/to/search and its subdirectories.
+
+Search for files with a specific extension:
+
+
+find /path/to/search -name "*.jpg"
+This command will find all files with the extension ".jpg" in the directory specified by /path/to/search and its subdirectories.
+
+Search for directories:
+
+find /path/to/search -type d
+This command will find all directories in the directory specified by /path/to/search and its subdirectories.
+
+Search for files modified within a certain time frame:
+
+
+find /path/to/search -type f -mtime -7
+This command will find all files modified within the last 7 days in the directory specified by /path/to/search and its subdirectories. You can change the number after -mtime to search for files modified within a different number of days.
+
+Search for files based on their size:
+
+
+find /path/to/search -type f -size +1M
+This command will find all files larger than 1 megabyte (1M) in the directory specified by /path/to/search and its subdirectories. You can modify the size value and unit (k for kilobytes, G for gigabytes) to fit your requirements.
+
+These are just a few examples of how you can use the find command. There are many other options and combinations available to refine your search. You can refer to the find command's documentation or use the man find command in the terminal for more information and additional options.
+```
+I used the 
+size and delete examples given and modified them so it fit into the code we were using for this class.
+
+My second prompt was: Please give me a few more examples
+
+The output was
+```
+Certainly! Here are a few more examples of how you can use the find command:
+
+Search for files owned by a specific user:
+
+
+find /path/to/search -user username
+This command will find all files in the directory specified by /path/to/search and its subdirectories that are owned by the user with the username "username".
+
+Search for empty files or directories:
+
+
+find /path/to/search -empty
+This command will find all empty files and directories in the directory specified by /path/to/search and its subdirectories.
+
+Search for files with specific permissions:
+
+find /path/to/search -perm 644
+This command will find all files in the directory specified by /path/to/search and its subdirectories with the permission set to 644. You can modify the permission value according to your needs.
+
+Search for files based on their file type:
+
+
+find /path/to/search -type f -name "*.pdf"
+This command will find all PDF files in the directory specified by /path/to/search and its subdirectories.
+
+Search for files by combining multiple conditions:
+
+
+find /path/to/search -type f -name "*.txt" -mtime +30
+This command will find all text files with the extension ".txt" in the directory specified by /path/to/search and its subdirectories that were modified more than 30 days ago.
+
+Remember to replace /path/to/search with the actual path you want to search in. You can mix and match different options and conditions to perform more complex searches using the find command.
+```
+From this I used type and empty and I modified it to fit the code we were given for this assignment.
+
+
+
