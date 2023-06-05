@@ -28,4 +28,8 @@ Cheers!
 
 ![Image](StudentReply.jpg.png)
 
-Thank you so much! I deleted the .java when running the test and it worked! Wowie command lines are super duper important.
+Thank you so much! I deleted the .java when running the test and it worked! Wowie command lines are super duper important. There was not a bug with my code but with my command line.
+
+## Reflection
+
+What I learned during the second part of this course is the power of viv (I think that is what it is called) and how important it is to use when getting code from github and how I can edit code within a terminal. This has been super helpful and I thought it was so interesting because I did not know I could do that before. I really appreciate how helpful the teaching staff was this quarter and this class has been a relaly enjoyable experience.
