@@ -20,4 +20,6 @@ The command line I am putting in is what is on the lab assignment, the only thin
 
 **Response**
 
-TA: Hi Grace, from what I can see it looks like all of your code is correct. The problem is with your command line. If you look in the command line at the line that says IllegalArgument ... at the end it says that it could not find 'ArrayTests.java'. This is because we need to write different parts of the file name when we are compiling code compared to running code. When we compile code we want to include  'Arraytests.java' and when we run code we do not want to include the .java. Try running the same command line
+TA: Hi Grace, from what I can see it looks like all of your code is correct. The problem is with your command line. If you look in the command line at the line that says IllegalArgument ... at the end it says that it could not find 'ArrayTests.java'. This is because we need to write different parts of the file name when we are compiling code compared to running code. When we compile code we want to include  'Arraytests.java' and when we run code we do not want to include the .java. Try running the same command line but instead of 'ArrayTests.java' put 'ArrayTests'. If you have anymore questions please let me know.
+
+Cheers!
