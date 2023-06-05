@@ -20,4 +20,4 @@ The command line I am putting in is what is on the lab assignment, the only thin
 
 **Response**
 
-TA: Hi Grace, from what I can see it looks like all of your code is correct. The problem is with your command line. If you look
+TA: Hi Grace, from what I can see it looks like all of your code is correct. The problem is with your command line. If you look in the command line at the line that says IllegalArgument ... at the end it says that it could not find '
