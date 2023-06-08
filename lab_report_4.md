@@ -3,6 +3,7 @@
 Hello! Welcome to the fourth part of the CSE15l journey!! 
 
 We will completing the next steps and documenting them below. The steps include
+
 0. Log into ssh account
 1. Clone your fork of the repository from your Github account
 2. Run the tests, demonstrating that they fail
