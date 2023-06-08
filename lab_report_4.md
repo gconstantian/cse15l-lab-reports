@@ -3,13 +3,24 @@
 Hello! Welcome to the fourth part of the CSE15l journey!! 
 
 We will completing the next steps and documenting them below. The steps include
-
+0. Log into ssh account
 1. Clone your fork of the repository from your Github account
 2. Run the tests, demonstrating that they fail
 3. Edit the code file to fix the failing test
 4. Run the tests, demonstrating that they now succeed
 5. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
+## 0. Log into your ssh account
+
+to do this type
+```
+ssh cs15lsp23zz@ieng6.ucsd.edu
+```
+replace the zz with whatever your specific letters are
+click enter
+then type in your password
+click enter
+![Image](step0.jpg.png)
 ## 1. Clone your fork of the repository from your Github account
 
 To do this type 
