@@ -32,7 +32,7 @@ in your terminal and click
 <enter>
 ```
 This will clone your fork into the repository so you can start editing it.
-
+![Image](step1.jpg.png)
 ## 2. Run the tests, demonstrating that they fail
 
 to do this type 
@@ -51,7 +51,7 @@ in the terminal and click
 ```
 enter
 ```
-
+![Image](step2.jpg.png)
 ## 3. Edit the code file to fix the failing test
 
 to do this type
@@ -89,7 +89,7 @@ then type
 :wq
 ```
 to save and quit
-
+![Image](step3.jpg.png)
 ## 4. Run the tests, demonstrating that they now succeed
 
 in your terminal and click 
@@ -104,7 +104,7 @@ in the terminal and click
 ```
 enter
 ```
-
+![Image](step4.jpg.png)
 ## 5. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 I do not know how to do this.
