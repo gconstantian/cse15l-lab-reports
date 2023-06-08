@@ -107,5 +107,16 @@ enter
 ![Image](step4.jpg.png)
 ## 5. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-I do not know how to do this.
+in your terminal type 
+```
+git commit -m 'all done'
+```
+and click enter 
+type in your terminal
+```
+git push
+```
+then click enter
+![Image](step5.jpg.png)
+![Image](step5a.jpg.png)
 
